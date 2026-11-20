@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfigurátor a ceny | BMW řady 2 Coupé</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header header--transparent">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">BMW <span>Řada 2</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Otevřít menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+                <a href="index.html">Model</a>
+                <a href="index.html#modely">Modely</a>
+                <a href="index.html#design">Design</a>
+                <a href="nabidka.html" class="active">Konfigurátor a ceny</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="config-hero">
+        <h1>Konfigurátor.</h1>
+    </section>
+
+    <section class="config">
+        <div class="container config__layout">
+
+            <div class="config__options">
+
+                <div class="config__preview">
+                    <img src="img/BB_car.webp" alt="BMW řady 2 Coupé" class="config__img" id="carImg">
+                    <p class="config__preview-name" id="previewName">BMW 218i Coupé</p>
+                </div>
+
+                <fieldset class="step">
+                    <legend><span class="step__num">1</span> Motorizace</legend>
+                    <div class="choice-grid" id="modelChoices"></div>
+                </fieldset>
+
+                <fieldset class="step">
+                    <legend><span class="step__num">2</span> Barva laku</legend>
+                    <div class="colors" id="colorChoices"></div>
+                    <p class="colors__name" id="colorName"></p>
+                </fieldset>
+
+                <fieldset class="step">
+                    <legend><span class="step__num">3</span> Kola</legend>
+                    <div class="choice-grid" id="wheelChoices"></div>
+                </fieldset>
+            </div>
+
+            <aside class="summary">
+                <h2>Vaše konfigurace</h2>
+                <ul class="summary__list" id="summaryList"></ul>
+
+                <div class="summary__total">
+                    <span>Celková cena</span>
+                    <strong id="totalPrice">0 Kč</strong>
+                </div>
+
+                <button type="button" class="btn btn--blue btn--full">Kontaktovat prodejce</button>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__col">
+                <p class="logo">BMW <span>Řady 2</span></p>
+            </div>
+            <div class="footer__col">
+                <h4>Odkazy</h4>
+                <a href="index.html">Model</a>
+                <a href="nabidka.html">Konfigurátor a ceny</a>
+            </div>
+            <div class="footer__col">
+                <h4>Kontakt</h4>
+                <p>rada2@bmw.cz</p>
+                <p>+420 123 456 789</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; BMW 2026 - Ondřej Durčák</p>
+        </div>
+    </footer>
+
+    <button class="to-top" id="toTop" aria-label="Zpět nahoru">&uarr;</button>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

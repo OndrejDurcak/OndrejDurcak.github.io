@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <!-- jednoduchá silueta kupé – náhrada, dokud nevložíš vlastní fotky -->
+  <ellipse cx="205" cy="133" rx="190" ry="8" fill="#000" opacity="0.15"/>
+  <path fill="#a3141c" d="M18,108 L22,86 Q28,74 62,69 L122,62 Q150,36 198,30 L258,30 Q292,33 322,60 L366,67 Q384,72 388,90 L390,108 Z"/>
+  <path fill="#1d2733" d="M136,62 Q160,42 198,38 L218,38 L218,62 Z"/>
+  <path fill="#1d2733" d="M226,38 L256,38 Q282,41 304,62 L226,62 Z"/>
+  <rect x="20" y="80" width="18" height="6" rx="3" fill="#dfe8f2"/>
+  <rect x="372" y="78" width="12" height="6" rx="3" fill="#5a0d10"/>
+  <circle cx="96" cy="108" r="24" fill="#111"/>
+  <circle cx="96" cy="108" r="13" fill="#8a8f96"/>
+  <circle cx="314" cy="108" r="24" fill="#111"/>
+  <circle cx="314" cy="108" r="13" fill="#8a8f96"/>
+</svg>
